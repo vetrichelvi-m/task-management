@@ -1,0 +1,31 @@
+xampp servePrerequisites
+PHP 8.1 or above
+Node 16.18.x or above
+
+Installation
+
+Clone the repository
+
+https://github.com/vetrichelvi-m/task-management.git
+
+Install dependancies
+
+composer install
+
+Copy .env.example to .env
+
+cp .env.example .env
+
+Generate application key
+
+php artisan key:generate
+
+
+Edit .env file to add database credentials
+
+
+
+npm install
+npm run build
+
+Visit http://localhost:8000/
